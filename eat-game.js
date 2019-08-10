@@ -34,7 +34,7 @@ var gamePlay = new Phaser.Class({
   
   preload: function() {
     // Preload images
-    var current_folder = '/static/games/eat-game/'
+    var current_folder = '/static/games/phaser-games/eat-game/'
     this.load.image(
       "sky",
       current_folder + 'assets/sky.png',
